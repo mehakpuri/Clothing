@@ -1,0 +1,189 @@
+body{
+  margin-left:0;
+  margin-right:0;
+}
+.main{
+  margin-left:3%;
+  margin-right: 3%;
+}
+.nav{
+  height:80px;
+  margin-left: 3%;
+}
+.navigation{
+  height:50px;
+  text-align: left;
+  background-color: #d00000;
+  padding-top:20px;
+  padding-right:40px;
+}
+.top{
+  padding:10px;
+}
+.navigation a:link{
+  color:white;
+}
+.navigation a:visited{
+  color:white;
+}
+.head1{
+  font-family: 'Stylish', sans-serif;
+  text-align: center;
+  color:#d00000;
+}
+.head2{
+  font-family: 'Stylish', sans-serif;
+  padding-left: 2%;
+}
+.filter{
+  font-family: 'Stylish', sans-serif;
+  padding-left: 10px;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #d00000;
+}
+.line{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.category{
+  padding-left: 10px;
+  font-weight: bold;
+  font-family: 'Crimson Text', serif;
+  font-size:20px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.container{
+  margin:3%;
+  margin-bottom:5px;
+  text-align: center;
+  position: relative;
+}
+.image{
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #d00000;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+a:link,a:visited{
+  color:#d00000;
+}
+a:hover{
+  font-weight: bold;
+}
+.size{
+  padding-left:10px;
+}
+.size a:link{
+  color:#505050;
+}
+.size a:visited{
+  color:#505050;
+}
+.footer-container{
+  background: #a80000;
+  position: relative;
+  padding: 5% 7%;
+  margin-top: 8%;
+}
+.footer-container #footer{
+  color: #adadad;
+}
+.footer-container #footer h2{
+  font-size: 35px;
+  text-align: top;
+  font-family: Poppins, sans-serif;
+  color: #695049;
+  margin-bottom: 20%;
+  text-align: left;
+}
+.footer-container #footer h4{
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+  color: white;
+  margin-bottom: 20%;
+  text-align: left;
+}
+.footer-container #footer a:link, a:visited{
+  text-decoration: none;
+   color: #adadad;
+   font-size: 16px;
+   font-family: Poppins, sans-serif;
+   line-height: 2;
+}
+.footer-container #footer a:hover {
+  color: white;
+}
+.input{
+  height: 40px;
+  line-height: 30px;
+  font-size: 12px;
+  background: white;
+  border: none;
+  border-radius: 6px;
+  color: #1e1d24;
+  padding: 1% 4%;
+}
+.f1 {
+padding: 20px;
+width: 35px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 60%;
+display: inline-block;
+transition: 0.3s;
+}
+.f1:hover {
+  opacity: 0.7;
+  color: #1e1d24;
+  background: white;
+transform: rotateZ(360deg);
+}
+.fa-arrow-right i:hover{
+color: #a54c4f;
+}
+.fa-twitter {
+  color: #1e1d24;
+  background: white;
+
+}
+.fa-facebook {
+  color: #1e1d24;
+  background: white;
+}
+.fa-google-plus {
+  color: #1e1d24;
+  background: white;
+}
+.fa-pinterest {
+  color: #1e1d24;
+  background: white;
+}

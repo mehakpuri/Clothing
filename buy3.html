@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="buy.css">
+  <link rel="stylesheet" type="text/css" href="topstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Stylish" rel="stylesheet">
+</head>
+<body onload="changeimage(1)">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12 nav">
+        Navigation bar
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 col-sm-8 col-xs-8 navigation">
+    <nav>
+     <ul>
+       <a href="#" class="top">Home</a>
+       <a href="#" class="top">About</a>
+       <a href="#" class="top">Women</a>
+       <a href="#" class="top">Men</a>
+       <a href="#" class="top">Kids</a>
+     </ul>
+   </nav>
+ </div>
+    <div class="main">
+    <div class="row">
+      <h1 class="head1">Shop With Us.</h1><br>
+    </div>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 cols">
+      <div class="back">
+        <a href="tops.html" class="b"><h6>Back to tops</h6></a>
+      </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <div class="imagemain">
+      <img id="myimage" src="top3.webp">
+      <script>
+      var imageID=0;
+      function changeimage(every_seconds)
+      {
+       if(!imageID)
+         {
+           document.getElementById("myimage").src="top3.webp";
+           imageID++;
+          }
+       else
+         {
+           if(imageID==1)
+           {
+           document.getElementById("myimage").src="top3a.webp";
+           imageID++;
+           }
+       else
+        {
+           if(imageID==2)
+           {
+           document.getElementById("myimage").src="top3b.webp";
+           imageID=0;
+           }
+         }
+       }
+       setTimeout("changeimage("+every_seconds+")",((every_seconds)*5000));
+      }
+      </script>
+      </div>
+    </div>
+
+    <div class="content">
+      <br><br>
+      <div class="col-md-8 col-sm-12 col-xs-12 con">
+    <h2 class="head2"> <b>Pink Ribbed Blouse</b></h2><br>
+        <h4><b>Cost :- </b><del>Rs1499</del> Rs 1050 </h4>
+       <h4 style="color:#d00000;"><b>Discount:-</b>(30%)</h4><br>
+          <span class="s01"><b>Size </b></span><span class="size"><a href="#" class="x01">XL</a>
+            <a href="#"class="x01">L</a>
+            <a href="#" class="x01">S</a><br><br></span>
+          <span class="s02"><b>Color</b></span><u id="c01">c</u><br><br>
+          <input type="button"  value="Buy" id="button1" >
+    </div>
+  </div>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+  <br><br><br><br>
+    <h2 id="pot01">Related Products</h2>
+    <br><br>
+</div>
+    <div class="row">
+      <div class="col-md-12">
+      <div class="col-md-3 contain">
+      <a href="buy.html"><img src="top4.webp" class="image1" height="300px">
+        <div class="middle1">
+          <div class="text">View</div>
+        </div>
+          </a></div>
+    <div class="col-md-3 contain">
+      <a href="buy2.html"><img src="top5.webp" class="image1" height="300px">
+        <div class="middle1">
+          <div class="text">View</div>
+        </div>
+     </a>
+    </div>
+    <div class="col-md-3 contain">
+      <a href="buy3.html"><img src="top6.webp" class="image1" height="300px">
+        <div class="middle1">
+          <div class="text">View</div>
+        </div>
+     </a>
+        </div>
+        <div class="col-md-3 contain">
+      <a href="buy.html"><img src="top7.webp" class="image1" height="300px">
+        <div class="middle1">
+          <div class="text">View</div>
+        </div>
+     </a>
+    </div>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="footer-container">
+       <footer id="footer">
+         <div class="row">
+           <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+             <h4 style="font-size:36px;font-family: 'Cinzel Decorative', cursive;"><b>Shop!</b></h4>
+             <ul>
+
+
+             </ul>
+           </div>
+         <div class="row">
+           <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+             <h4>Categories</h4>
+             <nav>
+               <a href="#">Athletic Shop</a><br>
+               <a href="#">Fashion Sneakers</a><br>
+               <a href="#">Jackets</a><br>
+               <a href="#">Outdoor Shop</a><br>
+               <a href="#">Shirts & Tops</a><br>
+               <a href="#">Dresses</a><br>
+           </nav>
+           </div>
+           <div class="container">
+             <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+               <h4>Follow Us</h4>
+               <i class="fa fa-twitter f1" style="width: 35px;height: 35px;"></i>
+               <a href="#"><i class="fa fa-facebook f1" style="width: 35px;height: 35px;"></i></a>
+               <i class="fa fa-google-plus f1" style="width: 35px;height: 35px;"></i>
+               <i class="fa fa-pinterest f1" style="width: 35px;height: 35px;"></i>
+             </div>
+             <div class="row">
+               <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3">
+                 <h4>Newsletter Sign Up</h4>
+                 <form>
+                   <input class="input" type="text" name="email" size="18" value="Enter your email">
+                   <button class="input" type="submit" name="submitNewsletter">
+                     <span><i class="fa fa-arrow-right"></i></span>
+                   </button>
+                 </form>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+       </div>
+
+</div>
+</div>
+
+    </body>
+</html>
